@@ -5,7 +5,7 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*padding-top: 70px;*/ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-image: url('/images/pattern.png');
     background-repeat: repeat;
     font-family: 'Source Sans Pro', sans-serif;
@@ -77,6 +77,11 @@ footer {
 }
 
 .carousel .item {
+    display: block;
+    height: 400px;
+}
+
+.carousel-inner > .item {
     height: 400px;
 }
 
@@ -84,7 +89,6 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 400px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
