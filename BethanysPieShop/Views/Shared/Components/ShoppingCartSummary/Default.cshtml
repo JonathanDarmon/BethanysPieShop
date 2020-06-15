@@ -4,10 +4,10 @@
 @if (Model.ShoppingCart.ShoppingCartItems.Count > 0)
 {
     <li class="nav-item">
-        <span class="material-icons">
+        <span class="material-icons nav-pills" style="color:white">
             shopping_cart
         </span>
-        <span id="cart-status">
+        <span id="cart-status" style="color:white">
             @Model.ShoppingCart.ShoppingCartItems.Count
         </span>
     </li>
