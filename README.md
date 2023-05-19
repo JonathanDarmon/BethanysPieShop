@@ -1,4 +1,4 @@
-# BethanysPieShop
+# BethanysPieShop Course on PluralSight
 
 # Using:
   * ASP.Net Core 3.1
